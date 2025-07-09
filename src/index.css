@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url("./fonts/BarlowSemiCondensed-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url("./fonts/BarlowSemiCondensed-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: white;
+  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
