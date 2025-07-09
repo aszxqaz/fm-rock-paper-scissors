@@ -257,7 +257,7 @@ Error generating stack: `+e.message+`
   aspect-ratio: 1;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.1);
-`,vy=800,yy=500;function gy(){const[c,s]=xl.useState(),[o,r]=xl.useState(),[p,z]=xl.useState(),[R,Y]=xl.useState(0);xl.useEffect(()=>{c&&!o&&setTimeout(()=>{r(ay())},vy)},[c]),xl.useEffect(()=>{setTimeout(()=>{if(c&&o){const E=c.compare(o);z(E),Y(U=>Math.max(U+E,0))}},yy)},[o]);function M(){s(void 0),r(void 0),z(void 0)}return{hero:c,setHero:s,house:o,reset:M,result:p,score:R}}const py="/vite-deploy-demo/assets/logo-OPSsSKKK.svg";function Sy({score:c}){return B.jsx(by,{children:B.jsxs(Ey,{children:[B.jsx(Ty,{src:py,alt:"logo"}),B.jsxs(Ay,{children:[B.jsx(zy,{children:"Score"}),B.jsx(_y,{children:c})]})]})})}const by=ft.div`
+`,vy=800,yy=500;function gy(){const[c,s]=xl.useState(),[o,r]=xl.useState(),[p,z]=xl.useState(),[R,Y]=xl.useState(0);xl.useEffect(()=>{c&&!o&&setTimeout(()=>{r(ay())},vy)},[c]),xl.useEffect(()=>{setTimeout(()=>{if(c&&o){const E=c.compare(o);z(E),Y(U=>Math.max(U+E,0))}},yy)},[o]);function M(){s(void 0),r(void 0),z(void 0)}return{hero:c,setHero:s,house:o,reset:M,result:p,score:R}}const py=""+new URL("logo-OPSsSKKK.svg",import.meta.url).href;function Sy({score:c}){return B.jsx(by,{children:B.jsxs(Ey,{children:[B.jsx(Ty,{src:py,alt:"logo"}),B.jsxs(Ay,{children:[B.jsx(zy,{children:"Score"}),B.jsx(_y,{children:c})]})]})})}const by=ft.div`
   width: 100%;
   padding-inline: 2rem;
   margin-bottom: 6.25rem;
@@ -306,7 +306,7 @@ Error generating stack: `+e.message+`
   font-weight: 700;
   line-height: 1;
   color: #565468;
-`,Oy="/vite-deploy-demo/assets/image-rules-A0LhRin-.svg",Dy="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%3e%3cpath%20fill='%233B4262'%20fill-rule='evenodd'%20d='M16.97%200l2.122%202.121-7.425%207.425%207.425%207.425-2.121%202.12-7.425-7.424-7.425%207.425L0%2016.97l7.425-7.425L0%202.121%202.121%200l7.425%207.425L16.971%200z'%20opacity='.25'/%3e%3c/svg%3e";function My({ref:c,onClose:s}){return B.jsxs(Ry,{ref:c,children:[B.jsx(xy,{children:"Rules"}),B.jsx(Uy,{src:Oy,alt:"rules"}),B.jsx(Ny,{onClick:s,src:Dy,alt:"close button"})]})}const Ry=ft.dialog`
+`,Oy=""+new URL("image-rules-A0LhRin-.svg",import.meta.url).href,Dy="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%3e%3cpath%20fill='%233B4262'%20fill-rule='evenodd'%20d='M16.97%200l2.122%202.121-7.425%207.425%207.425%207.425-2.121%202.12-7.425-7.424-7.425%207.425L0%2016.97l7.425-7.425L0%202.121%202.121%200l7.425%207.425L16.971%200z'%20opacity='.25'/%3e%3c/svg%3e";function My({ref:c,onClose:s}){return B.jsxs(Ry,{ref:c,children:[B.jsx(xy,{children:"Rules"}),B.jsx(Uy,{src:Oy,alt:"rules"}),B.jsx(Ny,{onClick:s,src:Dy,alt:"close button"})]})}const Ry=ft.dialog`
   border: none;
   max-width: 100%;
   max-height: 100%;
